@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.web.pop2sync.twa",
+      "sha256_cert_fingerprints": [
+        "DB:0A:89:89:F4:2B:F7:AB:82:B3:6B:CF:75:50:90:73:CD:FE:62:E8:A0:19:F3:18:B1:4D:5F:32:0C:54"
+      ]
+    }
+  }
+]

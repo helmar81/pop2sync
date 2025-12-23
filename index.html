@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Helmar Baechle" />
+    <meta name="description" content="Real-time world statistics at your fingertips" />
+    <meta name="theme-color" content="#020617" />
+
+    <link rel="preload" as="image" href="/people.webp" fetchpriority="high">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <link rel="preload" as="image" href="/people.webp" fetchpriority="high">
+    
+    <link rel="preconnect" href="https://generativelanguage.googleapis.com">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" media="print" onload="this.media='all'">
+    
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" 
+      media="print" 
+      onload="this.media='all'"
+    >
+
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-TYC7CEQNKG"></script>
+    <script defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-TYC7CEQNKG');
+    </script>
+
+    <title>PopSync - World Population</title>
+    
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-slate-950">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "packageId": "app.web.pop2sync.twa",
+  "host": "pop2sync.web.app",
+  "name": "PopSync - World Statistics",
+  "launcherName": "PopSync",
+  "display": "standalone",
+  "themeColor": "#667EEA",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#60A5FA",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://pop2sync.web.app/icons/icon-512x512.jpg",
+  "maskableIconUrl": "https://pop2sync.web.app/icons/icon-512x512.jpg",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\promp\\Documents\\pop2syncStudio\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "2",
+  "appVersionCode": 2,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://pop2sync.web.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://pop2sync.web.app/",
+  "minSdkVersion": 21,
+  "orientation": "portrait-primary",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "2"
+}
