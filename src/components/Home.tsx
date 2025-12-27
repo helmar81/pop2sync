@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           <span className="font-display tracking-tight text-slate-100">PopSync</span>
         </div>
         <button className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
-          TWA in progress
+         
         </button>
       </nav>
 
